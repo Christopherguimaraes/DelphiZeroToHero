@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons;
 
 type
   TFormPrincipal = class(TForm)
@@ -14,8 +14,11 @@ type
     PnlTop: TPanel;
     PnlPrincipal: TPanel;
     PnlLogo: TPanel;
+    btnPrincipal: TSpeedButton;
+    btnUsurarios: TSpeedButton;
     procedure FormCreate(Sender: TObject);
   private
+    procedure ApplyStyle;
     { Private declarations }
   public
     { Public declarations }
@@ -32,11 +35,17 @@ uses
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
+  ApplyStyle;
+end;
 
-  PnlPrincipal.Color := COLOR_BACKGROUND;
-  PnlTop.Color := COLOR_BACKGROUND_TOP;
-  PnlLogo.Color := COLOR_BACKGROUND_DESTAK;
-  PnlMenu.Color := COLOR_BACKGROUND_MENU;
+procedure TFormPrincipal.ApplyStyle;
+begin
+  PnlPrincipal.Color := COLOR_BACKGROUND_BLACK;
+  PnlTop.Color := COLOR_BACKGROUND_TOP_BLACK;
+  PnlLogo.Color := COLOR_BACKGROUND_DESTAK_BLACK;
+  PnlMenu.Color := COLOR_BACKGROUND_MENU_BLACK;
+  Self.Font.Color := FONT_COLOR_BLACK;
+  Self.Font.Size := FONT_H6;
 end;
 
 end.

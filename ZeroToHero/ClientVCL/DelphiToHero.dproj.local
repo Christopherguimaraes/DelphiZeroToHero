@@ -2,13 +2,13 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/08/26 20:15:20.000.682,=C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/08/26 20:17:36.000.435,C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.dfm</Transaction>
-    <Transaction>2021/08/26 20:17:36.000.435,C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.pas</Transaction>
-    <Transaction>2021/08/26 20:18:13.000.739,C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\delphi\projetos\ZeroToHero\ClientVCL\DelphiToHero.dproj</Transaction>
-    <Transaction>2021/08/30 22:03:22.051,=E:\delphi\projetos\ZeroToHero\ClientVCL\Unit1.pas</Transaction>
-    <Transaction>2021/08/30 22:04:43.541,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Color.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\Unit1.pas</Transaction>
-    <Transaction>2021/08/30 22:14:21.278,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Main.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.pas</Transaction>
-    <Transaction>2021/08/30 22:14:21.278,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Main.dfm=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.dfm</Transaction>
-    <Transaction>2021/08/30 22:20:13.538,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Colors.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Color.pas</Transaction>
+    <Transaction>2021/08/26 20:17:36.000.435,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.pas=C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/26 20:17:36.000.435,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.dfm=C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/08/26 20:18:13.000.739,E:\delphi\projetos\ZeroToHero\ClientVCL\DelphiToHero.dproj=C:\Users\chris\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/30 22:03:22.000.051,=E:\delphi\projetos\ZeroToHero\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2021/08/30 22:04:43.000.541,E:\delphi\projetos\ZeroToHero\ClientVCL\Unit1.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Color.pas</Transaction>
+    <Transaction>2021/08/30 22:14:21.000.278,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.dfm=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Main.dfm</Transaction>
+    <Transaction>2021/08/30 22:14:21.000.278,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Mainpas.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\DelphiZeroToHero.View.Main.pas</Transaction>
+    <Transaction>2021/08/30 22:20:13.000.538,E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Color.pas=E:\delphi\projetos\ZeroToHero\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Colors.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -15,6 +15,15 @@ interface
     FONT_H4 = 16;
     FONT_H5 = 14;
     FONT_H6 = 12;
+
+const
+    COLOR_BACKGROUND_BLACK = $00322f2d;
+    COLOR_BACKGROUND_TOP_BLACK = $00b48145;
+    COLOR_BACKGROUND_MENU_BLACK = $004a4136;
+    COLOR_BACKGROUND_DESTAK_BLACK = $0082aa47;
+    FONT_COLOR_BLACK = $00ffffff;
+
+
 implementation
 
 end.

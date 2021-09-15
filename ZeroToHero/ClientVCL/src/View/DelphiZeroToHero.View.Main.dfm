@@ -2,8 +2,8 @@ object FormPrincipal: TFormPrincipal
   Left = 0
   Top = 0
   Caption = 'DelphiToHero'
-  ClientHeight = 502
-  ClientWidth = 757
+  ClientHeight = 436
+  ClientWidth = 724
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,21 +17,44 @@ object FormPrincipal: TFormPrincipal
   object PnlMain: TPanel
     Left = 0
     Top = 0
-    Width = 757
-    Height = 502
+    Width = 724
+    Height = 436
     Align = alClient
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 757
+    ExplicitHeight = 502
     object PnlMenu: TPanel
       Left = 0
       Top = 0
       Width = 129
-      Height = 502
+      Height = 436
       Align = alLeft
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 0
+      ExplicitHeight = 502
+      object btnPrincipal: TSpeedButton
+        Left = 0
+        Top = 161
+        Width = 129
+        Height = 80
+        Align = alTop
+        Caption = 'Usu'#225'rios'
+        Flat = True
+        ExplicitTop = 81
+      end
+      object btnUsurarios: TSpeedButton
+        Left = 0
+        Top = 81
+        Width = 129
+        Height = 80
+        Align = alTop
+        Caption = 'Principal'
+        Flat = True
+        ExplicitTop = 89
+      end
       object PnlLogo: TPanel
         Left = 0
         Top = 0
@@ -41,36 +64,45 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
+        ExplicitWidth = 105
       end
     end
     object PnlFull: TPanel
       Left = 129
       Top = 0
-      Width = 628
-      Height = 502
+      Width = 595
+      Height = 436
       Align = alClient
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
+      ExplicitWidth = 628
+      ExplicitHeight = 502
       object PnlTop: TPanel
         Left = 0
         Top = 0
-        Width = 628
+        Width = 595
         Height = 81
         Align = alTop
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
+        ExplicitLeft = -176
+        ExplicitTop = 160
+        ExplicitWidth = 461
       end
       object PnlPrincipal: TPanel
         Left = 0
         Top = 81
-        Width = 628
-        Height = 421
+        Width = 595
+        Height = 355
         Align = alClient
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
+        ExplicitLeft = -112
+        ExplicitWidth = 461
+        ExplicitHeight = 270
       end
     end
   end
