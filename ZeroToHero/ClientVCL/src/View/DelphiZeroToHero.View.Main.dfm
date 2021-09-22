@@ -23,8 +23,6 @@ object FormPrincipal: TFormPrincipal
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 757
-    ExplicitHeight = 502
     object PnlMenu: TPanel
       Left = 0
       Top = 0
@@ -34,7 +32,6 @@ object FormPrincipal: TFormPrincipal
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 0
-      ExplicitHeight = 502
       object btnPrincipal: TSpeedButton
         Left = 0
         Top = 161
@@ -64,7 +61,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitWidth = 105
       end
     end
     object PnlFull: TPanel
@@ -76,8 +72,6 @@ object FormPrincipal: TFormPrincipal
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
-      ExplicitWidth = 628
-      ExplicitHeight = 502
       object PnlTop: TPanel
         Left = 0
         Top = 0
@@ -87,9 +81,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = -176
-        ExplicitTop = 160
-        ExplicitWidth = 461
       end
       object PnlPrincipal: TPanel
         Left = 0
@@ -100,9 +91,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = -112
-        ExplicitWidth = 461
-        ExplicitHeight = 270
       end
     end
   end

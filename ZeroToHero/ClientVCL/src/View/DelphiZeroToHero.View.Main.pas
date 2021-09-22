@@ -30,12 +30,15 @@ var
 implementation
 
 uses
-  DelphiToHero.View.Styles.Colors;
+  DelphiToHero.View.Styles.Colors,
+  Router4D, DelphiToHero.View.Pages.Principal;
 {$R *.dfm}
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
   ApplyStyle;
+
+  TRouter4D.Render<TPaginaPrincipal>.SetElement(PnlPrincipal,PnlMain)
 end;
 
 procedure TFormPrincipal.ApplyStyle;
