@@ -3,7 +3,6 @@ unit DelphiToHero.View.Pages.Principal;
 interface
 
 uses
-  Winapi.Windows,
   Winapi.Messages,
   System.SysUtils,
   System.Variants,
@@ -18,7 +17,7 @@ uses
 
 type
   TPaginaPrincipal = class(TForm, iRouter4DComponent)
-    pnl1: TPanel;
+    pnlPrincipal: TPanel;
     lblPaginaPrincipal: TLabel;
   private
     { Private declarations }
@@ -33,6 +32,8 @@ var
 
 implementation
 
+uses
+  Winapi.Windows;
 {$R *.dfm}
 
 { TPaginaPrincipal }
@@ -40,6 +41,7 @@ implementation
 function TPaginaPrincipal.Render: TForm;
 begin
   Result:= Self;
+  pnlPrincipal.Color := COLOR_BACKGROUND;
 end;
 
 procedure TPaginaPrincipal.UnRender;

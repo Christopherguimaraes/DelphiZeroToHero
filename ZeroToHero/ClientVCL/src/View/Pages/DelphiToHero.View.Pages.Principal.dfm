@@ -1,9 +1,11 @@
 object PaginaPrincipal: TPaginaPrincipal
   Left = 0
   Top = 0
+  Align = alClient
+  BorderStyle = bsNone
   Caption = 'PaginaPrincipal'
-  ClientHeight = 419
-  ClientWidth = 742
+  ClientHeight = 458
+  ClientWidth = 758
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,24 +15,21 @@ object PaginaPrincipal: TPaginaPrincipal
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object pnl1: TPanel
+  object pnlPrincipal: TPanel
     Left = 0
     Top = 0
-    Width = 742
+    Width = 758
     Height = 419
     Align = alTop
     BevelOuter = bvNone
     Padding.Top = 35
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 288
-    ExplicitTop = 160
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 742
     object lblPaginaPrincipal: TLabel
       Left = 0
       Top = 35
-      Width = 742
+      Width = 758
       Height = 13
       Align = alTop
       Alignment = taCenter
