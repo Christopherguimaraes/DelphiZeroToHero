@@ -16,6 +16,6 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.CreateForm(TPaginaPrincipal, PaginaPrincipal);
-  Application.CreateForm(TPageUsuarios, PageUsuarios);
+  Application.CreateForm(TPaginaUsuarios, PaginaUsuarios);
   Application.Run;
 end.

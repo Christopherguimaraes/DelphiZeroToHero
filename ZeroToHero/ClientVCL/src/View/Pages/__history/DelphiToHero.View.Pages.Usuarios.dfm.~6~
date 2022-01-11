@@ -28,11 +28,12 @@ object PageUsuarios: TPageUsuarios
     object lblPaginaPrincipal: TLabel
       Left = 0
       Top = 35
-      Width = 41
+      Width = 744
       Height = 13
       Align = alTop
       Alignment = taCenter
       Caption = 'Usu'#225'rios'
+      ExplicitWidth = 41
     end
   end
 end
