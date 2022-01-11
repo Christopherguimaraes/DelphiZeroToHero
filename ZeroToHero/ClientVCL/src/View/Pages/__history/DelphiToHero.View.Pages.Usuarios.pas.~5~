@@ -17,7 +17,7 @@ uses
   Vcl.ExtCtrls;
 
 type
-  TPaginaUsuarios = class(TForm, iRouter4DComponent)
+  TPageUsuarios = class(TForm, iRouter4DComponent)
     PnlUsuario: TPanel;
     lblPaginaPrincipal: TLabel;
   private
@@ -29,21 +29,21 @@ type
   end;
 
 var
-  PaginaUsuarios: TPaginaUsuarios;
+  PageUsuarios: TPageUsuarios;
 
 implementation
 
 {$R *.dfm}
 
-{ TPaginaUsuarios }
+{ TPageUsuarios }
 
-function TPaginaUsuarios.Render: TForm;
+function TPageUsuarios.Render: TForm;
 begin
   Result := Self;
 //  PnlUsuario.Color := COLOR_BACKGROUND;
 end;
 
-procedure TPaginaUsuarios.UnRender;
+procedure TPageUsuarios.UnRender;
 begin
 
 end;

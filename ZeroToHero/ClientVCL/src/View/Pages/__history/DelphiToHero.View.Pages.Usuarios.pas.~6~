@@ -29,13 +29,13 @@ type
   end;
 
 var
-  PaginaUsuarios: TPaginaUsuarios;
+  PageUsuarios: TPaginaUsuarios;
 
 implementation
 
 {$R *.dfm}
 
-{ TPaginaUsuarios }
+{ TPageUsuarios }
 
 function TPaginaUsuarios.Render: TForm;
 begin
