@@ -26,11 +26,13 @@ type
     btnPrincipal: TSpeedButton;
     btnUsurarios: TSpeedButton;
     procedure FormCreate(Sender: TObject);
+    procedure btnUsurariosClick(Sender: TObject);
+    procedure btnPrincipalClick(Sender: TObject);
   private
-    procedure ApplyStyle;
     { Private declarations }
   public
     { Public declarations }
+    procedure ApplyStyle;
   end;
 
 var
@@ -40,8 +42,19 @@ implementation
 
 uses
   DelphiToHero.View.Styles.Colors,
-  Router4D, DelphiToHero.View.Pages.Principal;
+  Router4D,
+  DelphiToHero.View.Pages.Principal;
 {$R *.dfm}
+
+procedure TFormPrincipal.btnPrincipalClick(Sender: TObject);
+begin
+  TRouter4D.Link.&To('Usuarios');
+end;
+
+procedure TFormPrincipal.btnUsurariosClick(Sender: TObject);
+begin
+  TRouter4D.Link.&To('Principal');
+end;
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
@@ -49,6 +62,7 @@ begin
 
   TRouter4D.Render<TPaginaPrincipal>.SetElement(PnlPrincipal,PnlMain)
 end;
+
 
 procedure TFormPrincipal.ApplyStyle;
 begin

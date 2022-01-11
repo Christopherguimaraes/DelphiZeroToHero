@@ -40,6 +40,7 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'Usu'#225'rios'
         Flat = True
+        OnClick = btnPrincipalClick
         ExplicitTop = 81
       end
       object btnUsurarios: TSpeedButton
@@ -50,6 +51,7 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'Principal'
         Flat = True
+        OnClick = btnUsurariosClick
         ExplicitTop = 89
       end
       object PnlLogo: TPanel

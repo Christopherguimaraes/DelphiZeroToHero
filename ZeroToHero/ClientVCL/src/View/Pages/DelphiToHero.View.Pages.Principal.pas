@@ -19,8 +19,7 @@ type
   TPaginaPrincipal = class(TForm, iRouter4DComponent)
     pnlPrincipal: TPanel;
     lblPaginaPrincipal: TLabel;
-  private
-    { Private declarations }
+  private   { Private declarations }
   public
     { Public declarations }
     function Render : TForm;
@@ -41,7 +40,7 @@ uses
 function TPaginaPrincipal.Render: TForm;
 begin
   Result:= Self;
-  pnlPrincipal.Color := COLOR_BACKGROUND;
+//  pnlPrincipal.Color := COLOR_BACKGROUND;
 end;
 
 procedure TPaginaPrincipal.UnRender;

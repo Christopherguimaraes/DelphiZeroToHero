@@ -19,13 +19,13 @@ object PaginaPrincipal: TPaginaPrincipal
     Left = 0
     Top = 0
     Width = 758
-    Height = 419
-    Align = alTop
+    Height = 458
+    Align = alClient
     BevelOuter = bvNone
     Padding.Top = 35
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 742
+    ExplicitHeight = 419
     object lblPaginaPrincipal: TLabel
       Left = 0
       Top = 35

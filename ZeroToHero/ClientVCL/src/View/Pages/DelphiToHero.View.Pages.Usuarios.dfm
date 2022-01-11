@@ -1,9 +1,11 @@
 object PageUsuarios: TPageUsuarios
   Left = 0
   Top = 0
+  Align = alClient
+  BorderStyle = bsNone
   Caption = 'PageUsuarios'
-  ClientHeight = 437
-  ClientWidth = 728
+  ClientHeight = 476
+  ClientWidth = 744
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,26 +15,25 @@ object PageUsuarios: TPageUsuarios
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object pnl1: TPanel
+  object PnlUsuario: TPanel
     Left = 0
     Top = 0
-    Width = 728
+    Width = 744
     Height = 419
     Align = alTop
     BevelOuter = bvNone
     Padding.Top = 35
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 774
     object lblPaginaPrincipal: TLabel
       Left = 0
       Top = 35
-      Width = 728
+      Width = 744
       Height = 13
       Align = alTop
       Alignment = taCenter
-      Caption = 'P'#225'gina Principal'
-      ExplicitWidth = 74
+      Caption = 'Usu'#225'rios'
+      ExplicitWidth = 41
     end
   end
 end

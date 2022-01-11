@@ -18,7 +18,7 @@ uses
 
 type
   TPageUsuarios = class(TForm, iRouter4DComponent)
-    pnl1: TPanel;
+    PnlUsuario: TPanel;
     lblPaginaPrincipal: TLabel;
   private
     { Private declarations }
@@ -40,6 +40,7 @@ implementation
 function TPageUsuarios.Render: TForm;
 begin
   Result := Self;
+//  PnlUsuario.Color := COLOR_BACKGROUND;
 end;
 
 procedure TPageUsuarios.UnRender;
